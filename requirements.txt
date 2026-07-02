@@ -1,0 +1,7 @@
+numpy
+scikit-learn
+pillow
+spectral
+matplotlib
+scipy
+gradio
