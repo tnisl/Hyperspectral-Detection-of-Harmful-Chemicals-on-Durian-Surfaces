@@ -31,12 +31,17 @@ The system simultaneously detects five classes of harmful chemicals: *Captan, Ca
 ## 🚀 Installation & How to Run
 
 ### 1. Setup Environment
-Clone the repository and install the required dependencies:
+Clone the repository:
 ```bash
 # Clone the repository
 git clone [https://github.com/tnisl/Hyperspectral-Detection-of-Harmful-Chemicals-on-Durian-Surfaces.git](https://github.com/tnisl/Hyperspectral-Detection-of-Harmful-Chemicals-on-Durian-Surfaces.git)
 cd Hyperspectral-Detection-of-Harmful-Chemicals-on-Durian-Surfaces
 ```
+Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 ### 2. Execution
 For the Gradio app, run this file.
 ```bash
