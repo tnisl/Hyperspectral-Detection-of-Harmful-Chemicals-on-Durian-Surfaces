@@ -20,8 +20,6 @@ The system simultaneously detects five classes of harmful chemicals: *Captan, Ca
 
 ## 📁 File Structure & Descriptions
 
-*(Please update this list based on your actual repository layout)*
-
 * `app_center_samples_clean.py`: The main entry point to run the demonstration or Streamlit dashboard.
 * `preprocessing.py`: Contains functions for spectral extraction, Z-score normalization, and Savitzky-Golay filtering.
 * `band_selection.py`: Implements the Genetic Algorithm for optimal spectral band selection.
