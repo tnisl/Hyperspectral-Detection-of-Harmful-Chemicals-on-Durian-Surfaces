@@ -22,11 +22,10 @@ The system simultaneously detects five classes of harmful chemicals: *Captan, Ca
 
 *(Please update this list based on your actual repository layout)*
 
-* `main.py` / `app.py`: The main entry point to run the demonstration or Streamlit dashboard.
-* `src/preprocessing.py`: Contains functions for spectral extraction, Z-score normalization, and Savitzky-Golay filtering.
-* `src/genetic_algorithm.py`: Implements the Genetic Algorithm for optimal spectral band selection.
-* `src/model.py`: Defines the Multi-label KNN classifier and evaluation metrics.
-* `data/`: Directory to store raw hyperspectral images (.hdr/.raw) and dataset annotations.
+* `app_center_samples_clean.py`: The main entry point to run the demonstration or Streamlit dashboard.
+* `preprocessing.py`: Contains functions for spectral extraction, Z-score normalization, and Savitzky-Golay filtering.
+* `band_selection.py`: Implements the Genetic Algorithm for optimal spectral band selection.
+* `classification.py`: Defines the Multi-label KNN classifier and evaluation metrics.
 * `requirements.txt`: Lists all Python dependencies needed to execute the project.
 
 ## 🚀 Installation & How to Run
